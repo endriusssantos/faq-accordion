@@ -1,0 +1,30 @@
+@media (max-width: 425px) {
+    body {
+        background-image: url(../images/background-pattern-mobile.svg);
+    }
+
+    .container .card {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .container .card .faq-title .faq {
+        font-size: 35px;
+    }
+
+    .container .card .questions .questions-list .question {
+        background-size: 35px;
+    }
+
+    .container .card .faq-title .star {
+        width: 27px;
+    }
+
+    .container .card .questions .questions-list .question .title {
+        width: 250px;
+    }
+
+    .container .card .questions .questions-list .question .answer {
+        width: 310px;
+    }
+}
